@@ -1,9 +1,9 @@
-model = Sketchup.active_model
+mod = Sketchup.active_model
 m=3
 while m < 4
 	h = 9
     teller = model.layers.count 
-	while h < 17
+	while h < 22
 		t = Time.local(2019, m, 21, h)
 		Sketchup.active_model.shadow_info["ShadowTime"] = t		 
 		a = [0.m,13.m,0] #pick point		
