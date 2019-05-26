@@ -1,4 +1,4 @@
-mod = Sketchup.active_model
+model = Sketchup.active_model
 m=3
 while m < 4
 	h = 9
